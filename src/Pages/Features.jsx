@@ -6,10 +6,10 @@ const Features = () => {
     <>
       <div className=" bg-[#14379A] w-full h-[500px] object-center text-center  flex justify-center items-center">
         <div className="">
-          <h1 className="text-white font-LibreFranklin font-semibold text-[70px]">
+          <h1 className="text-white font-LibreFranklin font-semibold text-[70px] heading">
             Expect only the best from us.
           </h1>
-          <p className="text-[#ccc] mt-6 text-[18px] font-LibreFranklin font-normal">
+          <p className="text-[#ccc] mt-6 text-[18px] font-LibreFranklin font-normal paragraph">
             As we are so concerned about the quality, We have implemented it in
             our <span className="text-white">EasyNAAC</span> tools also.{" "}
             <br /> <span className="text-white">EasyNAAC</span> is easy to

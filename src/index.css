@@ -166,6 +166,12 @@
     justify-content: center;
     row-gap: 4.875rem;
   }
+  .thumb {
+    width: 100%;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+  
 }
 @media screen and (max-width: 868px) {
   .services_container {
@@ -179,6 +185,15 @@
   }
   .about_images_container {
     grid-template-columns: 310px;
+  }
+  .home-banner-img {
+    background-image: url(./assets/home_banner_mobile_img.jpeg);
+    width: 100%;
+    height: 100vh;
+    animation: forwards 20s zoom-in-out;
+  }
+  .heading{
+    font-size: 52px;
   }
 }
 
@@ -200,9 +215,20 @@
   .contact_info{
     text-align: center;
   }
+  .heading{
+    font-size: 35px;
+    line-height: 50px;
+    padding: 0 20px 0 20px;
+  }
+  .paragraph{
+    padding: 0 20px 0 20px ;
+    font-size: 18px;
+    margin-top: 20px;
+  }
 }
 @media screen and (max-width: 350px) {
   .contact_container{
     grid-template-columns: 1fr;  
   }
+  
 }

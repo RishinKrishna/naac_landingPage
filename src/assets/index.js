@@ -11,7 +11,7 @@ import easy_use_img from './easy_use_img.png'
 import easy_report_img from './easy_report_img.png'
 import data_control_img from './data_control_img.png'
 import data_backup_img from './data_backup_img.png'
-
+import home_banner_mobile_img from "./home_banner_mobile_img.jpeg"
 
 
 
@@ -28,4 +28,5 @@ export {
     easy_report_img,
     data_control_img,
     data_backup_img,
+    home_banner_mobile_img,
 }

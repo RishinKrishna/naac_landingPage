@@ -5,7 +5,7 @@ const FeaturesCards = () => {
   return (
     <section id="services" className={`services container section mb-12 `}>
       <h2
-        className={`text-[#141824] flex justify-center font-LibreFranklin font-semibold text-[27px] py-[80px]`}
+        className={`text-[#141824] flex justify-center font-LibreFranklin text-center font-semibold text-[27px] py-[80px]`}
       >
         Our 3 EasyNAAC unique features that helps you build your leads.
       </h2>

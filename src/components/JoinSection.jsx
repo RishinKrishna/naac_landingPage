@@ -3,7 +3,7 @@ import styles from "../style";
 const JoinSection = () => {
   return (
     <div
-      className={`joinSection_container grid py-[150px] text-center ${styles.flexCenter} ${styles.boxWidth}`}
+      className={`joinSection_container grid py-[100px] text-center ${styles.flexCenter} ${styles.boxWidth}`}
     >
       <div className="text-[35px] font-Montserrat font-semibold text-green-600">
         <h2>Party On</h2>

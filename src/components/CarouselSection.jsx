@@ -10,7 +10,7 @@ const Carousel = () => {
   return (
     <section className="">
       <Swiper
-        className="testmonials_container w-[950px] m-auto grid "
+        className="testmonials_container m-auto grid "
         modules={[Pagination]}
         spaceBetween={30}
         slidesPerView={1}
@@ -34,7 +34,7 @@ const Carousel = () => {
       </Swiper>
       <div className="my-12">
       <h2
-        className={`text-[#141824] flex justify-center font-Montserrat font-semibold text-[20px]`}
+        className={`text-[#141824] flex justify-center text-center font-Montserrat font-semibold text-[20px]`}
       >
        An investment in knowledge pays the best interest
       </h2>

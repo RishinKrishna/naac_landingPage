@@ -6,11 +6,11 @@ const Home = () => {
     <>
       <div className="home-banner-img bg-no-repeat object-center text-center bg-top bg-cover overflow-hidden flex justify-center items-center  pb-12">
         <div className="">
-          <h1 className="text-white font-LibreFranklin font-semibold text-[65px] leading-[82px]">
+          <h1 className="text-white font-LibreFranklin font-semibold text-[65px] leading-[82px] heading">
             Its Your Turn to Take a Easy <br /> Step to Get NAAC <br />{" "}
             Accreditation
           </h1>
-          <p className="text-white font-normal ">
+          <p className="text-white font-normal paragraph">
             Accreditation We build your Empire.Through the Easy path ,We takes
             you to the Zenith.
           </p>

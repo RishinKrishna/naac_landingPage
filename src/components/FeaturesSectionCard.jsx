@@ -3,12 +3,8 @@ import styles from "../style";
 
 const FeaturesSectionCard = () => {
   return (
-    <section id="services" className={`services container section mb-12 `} >
-      <h2
-        className={`text-[#141824] flex justify-center font-LibreFranklin font-semibold text-[25px] py-[80px]`}
-      >
-       Our 3 EasyNAAC unique features that helps you build your leads.
-      </h2>
+    <section id="services" className={`services container section mb-12 mt-12`} >
+      
 
       <div className={`featureCard_container grid  ${styles.flexStart} ${styles.boxWidth}`} >
         {allCards.map(({id, image , title ,description}) =>{
