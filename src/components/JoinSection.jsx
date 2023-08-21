@@ -14,7 +14,9 @@ const JoinSection = () => {
         <h4 className="text-[18px] font-Montserrat font-semibold text-[#1418249d]">We together build it.</h4>
       </div>
       <div className="">
-      <button className="demo_btn hover:text-[#141824]">Get free Demo</button>
+      <a href="https://demo.naac.pro/login" target="_blank" className="demo_btn hover:text-[#141824] py-2 px-3 rounded-[10px]">
+              Get free demo
+            </a>
       </div>
     </div>
   );

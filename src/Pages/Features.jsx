@@ -9,13 +9,15 @@ const Features = () => {
           <h1 className="text-white font-LibreFranklin font-semibold text-[70px] heading">
             Expect only the best from us.
           </h1>
-          <p className="text-[#ccc] mt-6 text-[18px] font-LibreFranklin font-normal paragraph">
+          <p className="text-[#ccc] mt-6 mb-10 text-[18px] font-LibreFranklin font-normal paragraph">
             As we are so concerned about the quality, We have implemented it in
             our <span className="text-white">EasyNAAC</span> tools also.{" "}
             <br /> <span className="text-white">EasyNAAC</span> is easy to
             use with a lot of unique features.
           </p>
-          <button className="demo_btn mt-6 font-semibold">Get free demo</button>
+          <a href="https://demo.naac.pro/login" className="demo_btn py-2 px-3 rounded-[10px]">
+              Get free demo
+            </a>
         </div>
       </div>
       <div className={`bg-white ${styles.paddingX} ${styles.flexStart}`}>

@@ -10,7 +10,7 @@ const Contact = () => {
           Book a free consultation on data management
           </h1>
           
-          <button className="demo_btn mt-6 font-semibold">Get free demo</button>
+          
         </div>
       </div>
       <div className={`bg-white ${styles.paddingX} ${styles.flexStart}`}>

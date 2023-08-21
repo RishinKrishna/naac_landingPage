@@ -19,9 +19,10 @@ const Navbar = () => {
         <Link to="/contact">
           <li>Contact</li>
         </Link>
-        <button className="demo_btn hover:text-[#141824]">
-          Get free demo
-        </button>
+        
+        <a href="https://demo.naac.pro/login" target="_blank" className="demo_btn hover:text-[#141824] py-2 px-3 rounded-[10px]">
+              Get free demo
+            </a>
       </ul>
 
       <div className="sm:hidden flex flex-1 justify-end items-center">
@@ -46,9 +47,9 @@ const Navbar = () => {
             <Link to="/contact">
               <li>Contact</li>
             </Link>
-            <button className="demo_btn py-2 px-3 rounded-[10px] bg-orange-300 ">
+            <a href="https://demo.naac.pro/login" target="_blank" className="demo_btn py-2 px-3 rounded-[10px]">
               Get free demo
-            </button>
+            </a>
           </ul>
         </div>
       </div>
