@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500;600;700&family=Montserrat:wght@500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.demo_btn {
+  background: green;
+  border: 2px solid green;
+  padding: 8px 12px;
+  border-radius: 10px;
+  color: white;
+}
+
+.demo_btn:hover,
+.demo_btn:focus {
+  outline: 3px;
+  background: transparent;
+  border: 2px solid green;
+}
+
+.thumb {
+  width: 800px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.swiper-pagination-bullet {
+  width: 0.6rem !important;
+  height: 0.6rem !important;
+  background-color: #14379a;
+}
+
+.home-banner-img {
+  background-image: url(./assets/home_banner_img.jpeg);
+  width: 100%;
+  height: 100vh;
+  animation: forwards 20s zoom-in-out;
+}
+@keyframes zoom-in-out {
+  0% {
+    background-size: 100%;
+  }
+  50% {
+    background-size: 108%;
+  }
+  100% {
+    background-size: 100%;
+  }
+}
+
+.featureCard_container {
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 1.875rem;
+}
+
+.services_container {
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1.875rem;
+}
+.joinSection_container {
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1.875rem;
+}
+
+.about_images_container {
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 3.975rem;
+}
+
+.services_card {
+  text-align: center;
+  padding: 1.875rem;
+  border-radius: 10px;
+  border: 1px solid #14389a50;
+  background: white;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.contact.section{
+  padding-bottom: 6.25rem;
+}
+
+.contact_container{
+  grid-template-columns: 4fr 8fr;
+  column-gap: 1.875rem;
+}
+
+.contact_title{
+  font-size: 40px;
+  margin-bottom: 0.5rem;
+}
+.contact_form-group{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  column-gap: 1.5rem;
+}
+
+.contact_form-div{
+  position: relative;
+  margin-bottom: 1.875rem;
+  height: 3.75rem;
+}
+
+.contact_form-input{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  color: #141824;
+  font-weight: 500;
+  border: none;
+  outline: 1px solid rgba(128, 128, 128, 0.534);
+  border-radius: 15px;
+  
+  padding: 0.625rem 1.875rem;
+  z-index: 1;
+}
+
+.contact_form-area{
+  height: 10.25rem;
+}
+
+.contact_form-area textarea{
+  resize: none;
+}
+
+
+
+.contact_info{
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.11), 0 6px 6px rgba(0, 0, 0, 0.082);
+}
+
+
+@media screen and (max-width: 1024px) {
+  .services_container {
+    grid-template-columns: repeat(2 330px);
+    justify-content: center;
+    row-gap: 1.875rem;
+  }
+  .featureCard_container {
+    grid-template-columns: repeat(2 330px);
+    justify-content: center;
+    row-gap: 1.875rem;
+  }
+  .joinSection_container {
+    grid-template-columns: repeat(2 330px);
+    justify-content: center;
+    row-gap: 4.875rem;
+  }
+  .about_images_container {
+    grid-template-columns: repeat(2 330px);
+    justify-content: center;
+    row-gap: 4.875rem;
+  }
+}
+@media screen and (max-width: 868px) {
+  .services_container {
+    grid-template-columns: 310px;
+  }
+  .featureCard_container {
+    grid-template-columns: 310px;
+  }
+  .joinSection_container {
+    grid-template-columns: 310px;
+  }
+  .about_images_container {
+    grid-template-columns: 310px;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .contact_container{
+    grid-template-columns: 300px 360px;
+    justify-content: center;
+  }
+  .contact_form-group{
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact_container{
+    grid-template-columns: 345px;
+    row-gap: 1.875rem;  
+  }
+  .contact_info{
+    text-align: center;
+  }
+}
+@media screen and (max-width: 350px) {
+  .contact_container{
+    grid-template-columns: 1fr;  
+  }
+}
